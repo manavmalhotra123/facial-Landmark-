@@ -16,7 +16,7 @@ mpFaceMesh = mp.solutions.face_mesh
 faceMesh = mpFaceMesh.FaceMesh(max_num_faces=2)
 
 # Specify drawing specifications for the landmarks
-drawSpec = mpDraw.DrawingSpec(thickness=1, circle_radius=1)
+drawSpec = mpDraw.DrawingSpec(color=(0, 255, 0), thickness=1, circle_radius=1)
 
 while True:
     # Read the next frame from the video
